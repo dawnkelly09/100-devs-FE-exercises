@@ -1,0 +1,58 @@
+body {
+    background: lightblue;
+    border: 2px solid lightgreen;
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Caveat", sans-serif;
+}
+
+header { 
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    display: flex; 
+    flex-direction: row;
+    text-align: center;
+}
+
+ul {
+    display: flex; 
+    flex-direction: row;
+    text-align: center;
+}
+
+li {
+    margin-right: 10px;
+    display: flex; 
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+h2 {
+    margin: 20px;
+    color: white;
+}
+
+
+p {
+    margin-left: 20 px;
+    padding: 20 px;
+    color: white;
+    
+}
+
+img {
+    resize: both;
+    width: 200px;
+    
+
+}
+    
