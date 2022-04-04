@@ -1,17 +1,20 @@
-/* NO classes or IDs */
-/* Please Make only World and Zebra Blue */
-section > h2{
+/* Please Make only Rhino and Zebra Blue */
+#rhino {
     color: blue;
 }
-/* Please Make only Zebra Purple */
-section > h2 + h2 {
-    color: purple;
-}
-/* Please keep Hufflepuff Gold and make ONLY Unicorn Gray  */
-section > article > h2 {
-    color: gray;
+#zebra {
+    color: blue;
 }
 /* Please Make only Hufflepuff Gold */
-article > h2 + h2 {
+#bestHouse {
     color: gold;
+}
+/* Please select Duck with the highest level of specificity possible */
+.areDucksDinosaurs {
+    /*with no spaces = select the item which fits all of these.*/
+    color: lime;
+}
+/* Please select Rhino with the highest level of specificity possible */
+#rhino {
+
 }
