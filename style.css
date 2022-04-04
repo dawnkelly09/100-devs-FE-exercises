@@ -1,58 +1,37 @@
-body {
-    background: lightblue;
-    border: 2px solid lightgreen;
-    margin: 10px;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    font-family: "Caveat", sans-serif;
-}
-
-header { 
-    display: flex; 
-    flex-direction: column;
-    text-align: center;
-}
-
-nav {
-    display: flex; 
-    flex-direction: row;
-    text-align: center;
-}
-
+/* Please make the li's blue, underlined, 15px, and have a gray background -->*/
 ul {
-    display: flex; 
-    flex-direction: row;
-    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+    background: gray;
 }
 
-li {
-    margin-right: 10px;
-    display: flex; 
-    flex-direction: row;
-    text-align: center;
-    
+/* <!-- Please make this section have a height of 300px, a light purple background, a gold border that is 5px thick --> */
+section {
+    height: 300px;
+    background: rgb(213, 103, 225);
+    border: 5px solid gold;
 }
 
+/* <!-- Please make this h1 30px, gold, centered, and use the Source Sans Pro Font  -- */
+h1 {
+    font:  30px "Source Sans Pro Font";
+    color: gold;
+    text-align: center;
+
+}
+
+/* <!-- Please make this footer have a dark brown background, 300px in height, and only 70% width. -->
+ */
+
+footer {
+    background: rgb(65, 18, 18);
+    height: 300px;
+    width: 70%;
+} 
+
+/* <!-- Please make this text have a line through it --> */
 h2 {
-    margin: 20px;
-    color: white;
+    text-decoration: line-through;
 }
 
-
-p {
-    margin-left: 20 px;
-    padding: 20 px;
-    color: white;
-    
-}
-
-img {
-    resize: both;
-    width: 200px;
-    
-
-}
-    
